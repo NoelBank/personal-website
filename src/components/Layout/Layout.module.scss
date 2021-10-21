@@ -1,0 +1,42 @@
+@import "../../styles/index";
+
+.base {
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+  height: 100vh;
+
+  @include media-from(md) {
+    flex-direction: row;
+  }
+}
+
+.contentLeft,
+.contentRight {
+  flex: 1;
+  padding: 1rem;
+
+  @include media-from(xs) {
+    padding: 2rem;
+  }
+
+  @include media-from(sm) {
+    padding: 4rem;
+  }
+
+  @include media-from(md) {
+    padding: 5rem;
+
+    overflow-y: scroll;
+    max-height: 100vh;
+    width: 50%;
+  }
+
+  @include media-from(lg) {
+    padding: 6rem;
+  }
+}
+
+.contentLeft {
+  background-color: $color-eerie-black;
+}

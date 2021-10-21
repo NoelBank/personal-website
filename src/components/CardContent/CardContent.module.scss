@@ -1,0 +1,19 @@
+@import "../../styles/index";
+
+.base {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 500;
+  font-size: $font-size-16;
+  margin-bottom: 0.5rem;
+  color: $color-white;
+}
+
+.description {
+  color: $color-philippine-gray;
+  font-weight: 300;
+  font-size: $font-size-14;
+}

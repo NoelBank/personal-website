@@ -1,0 +1,61 @@
+@import "../../styles/index";
+
+.base {
+  border-radius: 10px;
+  transition: transform 250ms, background 250ms;
+  background-color: $color-chinese-black;
+  color: $color-white;
+  font-size: $font-size-10;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 0 1rem 1rem 0;
+
+  @include media-to(xs) {
+    width: calc(50vw - 7rem / 2);
+
+    margin: 0 0 1rem 0;
+
+    &:nth-child(1),
+    &:nth-child(3n) {
+      margin: 0 1rem 1rem 0;
+    }
+  }
+
+  @include media-from(xs) {
+    min-width: 5.5rem;
+  }
+
+  @include media-from(md) {
+    margin: 0 1rem 1rem 0;
+  }
+
+  &:hover {
+    transform: translateY(-0.5rem);
+
+    &:nth-child(1) {
+      background-color: $color-crystal;
+    }
+
+    &:nth-child(2) {
+      background-color: $color-dark-cerulean;
+    }
+
+    &:nth-child(3) {
+      background-color: $color-green-blue;
+    }
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.icon {
+  height: 2rem;
+  width: 2rem;
+  margin-bottom: 0.5rem;
+}

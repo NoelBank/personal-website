@@ -1,0 +1,47 @@
+@import "../../styles/index";
+
+.personal {
+  display: flex;
+  align-items: center;
+
+  font-weight: 700;
+  font-size: $font-size-16;
+  margin: 0 0 2rem 0;
+
+  @include media-from(xs) {
+    font-size: $font-size-18;
+  }
+
+  @include media-from(md) {
+    font-size: $font-size-20;
+  }
+}
+
+.headline {
+  font-size: $font-size-24;
+  font-weight: 700;
+  min-height: 32px;
+  margin: 0 0 2rem 0;
+
+  @include media-from(md) {
+    min-height: 116px;
+
+    font-size: $font-size-44;
+  }
+}
+
+.description {
+  font-size: $font-size-14;
+  color: $color-philippine-gray;
+  font-weight: 200;
+  margin: 0 0 1.5rem 0;
+
+  &:last-child {
+    margin-bottom: 2.5rem;
+  }
+}
+
+.socialMedia {
+  display: flex;
+  flex-wrap: wrap;
+}

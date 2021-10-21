@@ -1,0 +1,14 @@
+@import "../../styles/index";
+
+.base {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: $color-white;
+}
+
+.icon {
+  height: 1.25rem;
+  width: 1.25rem;
+  margin-right: 0.5rem;
+}

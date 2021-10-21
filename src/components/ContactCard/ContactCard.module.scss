@@ -1,0 +1,25 @@
+@import "../../styles/index";
+
+.subheadline {
+  font-size: $font-size-14;
+  font-weight: 300;
+  color: $color-royal-pruple;
+  margin-bottom: 0.25rem;
+}
+
+.headline {
+  font-size: $font-size-18;
+  font-weight: 700;
+  color: $color-white;
+}
+
+.card {
+  &:hover {
+    transform: translateX(0.5rem);
+
+    &:first-child {
+      box-shadow: -10px 0px 0px 0px $color-royal-pruple;
+      color: $color-royal-pruple;
+    }
+  }
+}

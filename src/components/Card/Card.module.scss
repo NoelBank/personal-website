@@ -1,0 +1,32 @@
+@import "../../styles/index";
+
+.base {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 0 0 1rem;
+  border-radius: 10px;
+  background-color: $color-eerie-black;
+  transition: transform 250ms, color 250ms, box-shadow 250ms;
+  position: relative;
+  color: $color-philippine-gray;
+
+  @include media-from(md) {
+    padding: 1.5rem;
+    margin: 0 0 2rem;
+  }
+
+  &:hover {
+    transform: translateX(0.5rem);
+
+    &:nth-child(even) {
+      box-shadow: -10px 0px 0px 0px;
+      color: $color-crystal;
+    }
+
+    &:nth-child(odd) {
+      box-shadow: -10px 0px 0px 0px $color-dark-cerulean;
+      color: $color-dark-cerulean;
+    }
+  }
+}

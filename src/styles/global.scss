@@ -1,0 +1,27 @@
+@import "./variables";
+
+body {
+  background-color: $color-chinese-black;
+  height: 100vh;
+  width: 100vw;
+  font-size: $font-size-16;
+  color: $color-white;
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+body ::-webkit-scrollbar,
+html ::-webkit-scrollbar {
+  width: 0;
+}
+
+body ::selection,
+html ::selection {
+  color: $color-white;
+  background-color: $color-green-blue;
+}
+
+a {
+  text-decoration: none;
+  color: $color-white;
+}

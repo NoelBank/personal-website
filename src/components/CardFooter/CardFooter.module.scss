@@ -1,0 +1,36 @@
+@import "../../styles/index";
+
+.base {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: $font-size-12;
+  margin-top: 1rem;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+}
+
+.stat {
+  align-items: center;
+  display: flex;
+  margin-right: 0.75rem;
+}
+
+.icon {
+  height: 1.125rem;
+  width: 1.125rem;
+  margin-right: 0.25rem;
+}
+
+.statLabel {
+  color: $color-philippine-gray;
+}
+
+.externalLink {
+  height: 1.125rem;
+  width: 1.125rem;
+  color: $color-philippine-gray;
+}
