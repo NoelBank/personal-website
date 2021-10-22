@@ -8,10 +8,16 @@ function Error() {
     <div className={styles.base}>
       <h1 className={styles.headline}>
         <Typed
-          strings={["Mhh. Sieht nach einem fehler aus..."]}
+          strings={[
+            "Mhh. Sieht nach einem Fehler aus...",
+            "Die Seite könnte nicht exisitieren...",
+            "Es könnte aber auch ein Serverfehler sein 🤔",
+            "Geh am zurück zur Startseite!",
+          ]}
           typeSpeed={60}
           backDelay={2000}
           backSpeed={60}
+          loop
         />
       </h1>
 

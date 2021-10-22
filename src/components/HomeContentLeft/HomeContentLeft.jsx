@@ -24,19 +24,23 @@ function HomeContentLeft() {
         </h1>
 
         <p className={styles.description}>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita <a href="#id">kasd gubergren</a>, no sea takimata
-          sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-          consetetur sadipscing elitr.
+          Seit 2016 erschaffe ich Digitale Anwendungen für mich, meine Freunde
+          und Kudnen. Aktuell Arbeite ich als Application Developer bei der{" "}
+          <a
+            href="https://neoskop.de"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Neoskop GmbH
+          </a>{" "}
+          und beschäftige mich meistens mit React.js, Node.js, TypeScript und
+          allem, was mit Frontend zu tun hat.
         </p>
 
         <p className={styles.description}>
-          sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
-          aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-          dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-          sanctus est Lorem ipsum dolor sit amet.
+          In meiner Freizeit kann ich nicht aufhören schöne Anwendungen zu
+          entwickeln. Daher unterstütze ich verschiedene Projekte, im bereich
+          der Entwicklung.
         </p>
       </div>
       <div className={styles.socialMedia}>
