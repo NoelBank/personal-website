@@ -14,7 +14,7 @@
 .contentLeft,
 .contentRight {
   flex: 1;
-  padding: 1rem;
+  padding: 2rem 1rem;
 
   @include media-from(xs) {
     padding: 2rem;
