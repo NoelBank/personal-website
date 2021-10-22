@@ -20,12 +20,12 @@
     transform: translateX(0.5rem);
 
     &:nth-child(even) {
-      box-shadow: -10px 0px 0px 0px;
+      box-shadow: -0.5rem 0px 0px 0px $color-crystal;
       color: $color-crystal;
     }
 
     &:nth-child(odd) {
-      box-shadow: -10px 0px 0px 0px $color-dark-cerulean;
+      box-shadow: -0.5rem 0px 0px 0px $color-dark-cerulean;
       color: $color-dark-cerulean;
     }
   }

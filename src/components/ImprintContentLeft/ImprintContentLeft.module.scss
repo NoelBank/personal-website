@@ -1,0 +1,46 @@
+@import "../../styles/index";
+
+.base {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+
+  @include media-from(md) {
+    padding-top: 0;
+  }
+
+  h5 {
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: $font-size-18;
+    margin-bottom: 1rem;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  p {
+    font-size: $font-size-14;
+    color: $color-philippine-gray;
+    font-weight: 300;
+    margin-top: 0;
+
+    strong {
+      color: $color-white;
+    }
+  }
+}
+
+.headline {
+  font-size: $font-size-24;
+  font-weight: 700;
+  min-height: 32px;
+  margin: 0 0 2rem 0;
+
+  @include media-from(md) {
+    min-height: 116px;
+
+    font-size: $font-size-44;
+  }
+}

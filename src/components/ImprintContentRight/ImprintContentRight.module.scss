@@ -1,0 +1,28 @@
+@import "../../styles/index";
+
+.base {
+  display: flex;
+  flex-direction: column;
+
+  h5 {
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: $font-size-18;
+    margin-bottom: 1rem;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  p {
+    font-size: $font-size-14;
+    color: $color-philippine-gray;
+    font-weight: 300;
+    margin-top: 0;
+  }
+}
+
+.content {
+  margin-bottom: 3.5rem;
+}

@@ -11,10 +11,6 @@ function Footer() {
       <div className={styles.links}>
         <Link to="/imprint" className={styles.link}>
           impressum
-        </Link>{" "}
-        |
-        <Link to="/privacy" className={styles.link}>
-          datenschutz
         </Link>
       </div>
     </div>

@@ -18,6 +18,11 @@ const SOCIAL_MEDIA = {
     prettyName: "Instagram",
     url: "https://instagram.com/noel.bank",
   },
+  git: {
+    icon: SiInstagram,
+    prettyName: "Instagram",
+    url: "https://instagram.com/noel.bank",
+  },
 };
 
 function SocialMediaBadge({ type }) {

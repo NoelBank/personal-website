@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Error from "./pages/error/Error";
 import Home from "./pages/home/Home";
 import Imprint from "./pages/imprint/Imprint";
@@ -6,6 +7,7 @@ import Imprint from "./pages/imprint/Imprint";
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Switch>
         <Route exact path="/">
           <Home />
