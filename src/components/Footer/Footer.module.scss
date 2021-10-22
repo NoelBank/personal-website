@@ -4,6 +4,10 @@
   font-size: $font-size-12;
   text-align: center;
   color: $color-philippine-gray;
+
+  @include media-to(xs) {
+    margin-bottom: 2rem;
+  }
 }
 
 .links {
