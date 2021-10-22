@@ -25,3 +25,11 @@ a {
   text-decoration: none;
   color: $color-white;
 }
+
+.switch-wrapper {
+  position: relative;
+}
+
+.switch-wrapper > div {
+  position: absolute;
+}

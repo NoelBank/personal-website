@@ -12,7 +12,7 @@ function Error() {
             "Mhh. Sieht nach einem Fehler aus...",
             "Die Seite könnte nicht exisitieren...",
             "Es könnte aber auch ein Serverfehler sein 🤔",
-            "Geh am zurück zur Startseite!",
+            "Geh am besten zurück zur Startseite!",
           ]}
           typeSpeed={60}
           backDelay={2000}
