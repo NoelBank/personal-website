@@ -7,7 +7,7 @@ function Footer() {
 
   return (
     <div className={styles.base}>
-      developed with {year} ❤️ by Noel Bank |{` v${packageJson.version}`}
+      {year} - developed with ❤️ by Noel Bank |{` v${packageJson.version}`}
       <div className={styles.links}>
         <Link to="/imprint" className={styles.link}>
           impressum
