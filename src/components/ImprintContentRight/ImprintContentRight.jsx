@@ -1,5 +1,4 @@
 import styles from "./ImprintContentRight.module.scss";
-import Typed from "react-typed";
 import Footer from "../Footer/Footer";
 
 function ImprintContentRight() {
