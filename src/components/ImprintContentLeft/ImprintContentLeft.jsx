@@ -25,7 +25,7 @@ function ImprintContentLeft() {
       </p>
       <h5>Kontakt</h5>
       <p>
-        <strong>Telefon</strong>: +49 (0) 5132 85 18 685
+        <strong>Telefon</strong>: auf Anfrage
         <br />
         <strong>E-Mail</strong>: info@nbank.dev
       </p>
