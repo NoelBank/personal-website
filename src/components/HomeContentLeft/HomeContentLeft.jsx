@@ -47,6 +47,7 @@ function HomeContentLeft() {
         <SocialMediaBadge type="github" />
         <SocialMediaBadge type="twitter" />
         <SocialMediaBadge type="instagram" />
+        <SocialMediaBadge type="twitch" />
       </div>
     </>
   );

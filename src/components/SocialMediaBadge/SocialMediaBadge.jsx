@@ -1,4 +1,5 @@
 import { SiGithub, SiTwitter, SiInstagram } from "react-icons/si";
+import { FaTwitch } from "react-icons/fa";
 
 import styles from "./SocialMediaBadge.module.scss";
 
@@ -18,10 +19,10 @@ const SOCIAL_MEDIA = {
     prettyName: "Instagram",
     url: "https://instagram.com/noel.bank",
   },
-  git: {
-    icon: SiInstagram,
-    prettyName: "Instagram",
-    url: "https://instagram.com/noel.bank",
+  twitch: {
+    icon: FaTwitch,
+    prettyName: "Twitch",
+    url: "https://twitch.tv/NoelBank",
   },
 };
 
@@ -36,7 +37,7 @@ function SocialMediaBadge({ type }) {
       rel="noopener noreferrer"
     >
       <ICON className={styles.icon} />
-      {SOCIAL_MEDIA[type].prettyName}
+      <span>{SOCIAL_MEDIA[type].prettyName}</span>
     </a>
   );
 }

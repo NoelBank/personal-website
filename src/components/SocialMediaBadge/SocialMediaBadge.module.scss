@@ -2,7 +2,7 @@
 
 .base {
   border-radius: 10px;
-  transition: transform 250ms, box-shadow 250ms;
+  transition: transform 250ms, box-shadow 250ms, color 250ms;
   background-color: $color-chinese-black;
   color: $color-white;
   font-size: $font-size-10;
@@ -34,19 +34,22 @@
     margin: 0 1rem 1rem 0;
   }
 
+  span,
+  span:hover {
+    color: $color-white;
+  }
+
   &:hover {
     transform: translateY(-0.5rem);
 
-    &:nth-child(1) {
-      box-shadow: 0px 0.5rem 0px 0px $color-crystal;
+    &:nth-child(even) {
+      color: $color-royal-pruple;
+      box-shadow: 0px 0.5rem 0px 0px $color-royal-pruple;
     }
 
-    &:nth-child(2) {
-      box-shadow: 0px 0.5rem 0px 0px $color-dark-cerulean;
-    }
-
-    &:nth-child(3) {
-      box-shadow: 0px 0.5rem 0px 0px $color-green-blue;
+    &:nth-child(odd) {
+      color: $color-ube;
+      box-shadow: 0px 0.5rem 0px 0px $color-ube;
     }
   }
 
