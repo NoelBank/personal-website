@@ -1,5 +1,5 @@
 import { SiGithub, SiTwitter, SiInstagram } from "react-icons/si";
-import { FaTwitch } from "react-icons/fa";
+import { FaTwitch, FaDiscord } from "react-icons/fa";
 
 import styles from "./SocialMediaBadge.module.scss";
 
@@ -23,6 +23,11 @@ const SOCIAL_MEDIA = {
     icon: FaTwitch,
     prettyName: "Twitch",
     url: "https://twitch.tv/NoelBank",
+  },
+  discord: {
+    icon: FaDiscord,
+    prettyName: "Discord",
+    url: "https://discordapp.com/users/200573122980741121",
   },
 };
 
