@@ -25,7 +25,7 @@ function HomeContentLeft() {
 
         <p className={styles.description}>
           Seit 2016 erschaffe ich Digitale Anwendungen für mich, meine Freunde
-          und Kudnen. Aktuell Arbeite ich als Application Developer bei der{" "}
+          und Kunden. Aktuell Arbeite ich als Application Developer bei der{" "}
           <a
             href="https://neoskop.de"
             target="_blank"
