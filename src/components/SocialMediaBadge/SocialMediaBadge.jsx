@@ -12,7 +12,7 @@ const SOCIAL_MEDIA = {
   twitter: {
     icon: SiTwitter,
     prettyName: "Twitter",
-    url: "https://twitter.com/nbankhnvr",
+    url: "https://twitter.com/n_b4nk",
   },
   instagram: {
     icon: SiInstagram,
