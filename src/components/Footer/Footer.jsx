@@ -12,6 +12,10 @@ function Footer() {
         <Link to="/imprint" className={styles.link}>
           impressum
         </Link>
+        -
+        <a href="https://status.nbank.dev" target="_blank" rel="noopener noreferrer" className={styles.link}>
+          status
+        </a>
       </div>
     </div>
   );
