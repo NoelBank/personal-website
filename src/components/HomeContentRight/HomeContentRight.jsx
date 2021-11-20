@@ -15,7 +15,7 @@ function HomeContentRight() {
         <ContactCard />
       </div>
       <div className={styles.cards}>
-        {githubData ? (
+        {githubData?.length >= 1 ? (
           githubData.map((data) => <GithubCard key={data.id} data={data} />)
         ) : (
           <Card />
