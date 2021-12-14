@@ -3,7 +3,7 @@
 .subheadline {
   font-size: $font-size-14;
   font-weight: 300;
-  color: $color-royal-pruple;
+  color: $color-green-blue;
   margin-bottom: 0.25rem;
 }
 
@@ -18,8 +18,8 @@
     transform: translateX(0.5rem);
 
     &:first-child {
-      box-shadow: -10px 0px 0px 0px $color-royal-pruple;
-      color: $color-royal-pruple;
+      box-shadow: -10px 0px 0px 0px $color-green-blue;
+      color: $color-green-blue;
     }
   }
 }
