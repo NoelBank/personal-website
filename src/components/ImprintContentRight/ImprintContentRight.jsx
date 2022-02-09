@@ -77,7 +77,7 @@ function ImprintContentRight() {
           <li>https://nbank.fans</li>
           <li>https://nbank.one</li>
           <li>https://nbank.link</li>
-          <li>https://truelife.de</li>
+          <li>https://truelife-rp.de</li>
         </ul>
       </div>
 
