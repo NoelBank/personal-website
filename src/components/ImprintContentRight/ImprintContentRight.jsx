@@ -71,12 +71,8 @@ function ImprintContentRight() {
 
         <h5>Das Impressum gilt für folgende Seiten:</h5>
         <ul>
-          <li>https://nbank.cloud</li>
-          <li> https://nbank.tech</li>
           <li>https://nbank.dev</li>
-          <li>https://nbank.fans</li>
           <li>https://nbank.one</li>
-          <li>https://nbank.link</li>
           <li>https://truelife-rp.de</li>
         </ul>
       </div>
