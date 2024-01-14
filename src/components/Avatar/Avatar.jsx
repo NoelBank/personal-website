@@ -4,7 +4,7 @@ function Avatar() {
   return (
     <img
       className={styles.base}
-      src="https://www.gravatar.com/avatar/b5697326ea4f290539db74a2bb8773de"
+      src="https://gravatar.com/userimage/147666338/1a3341f02dbe89e49db1fa067d2c4e92.jpeg?size=256"
       alt="Profilbild Noel Bank"
     />
   );
